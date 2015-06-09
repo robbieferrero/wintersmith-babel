@@ -2,7 +2,10 @@
   "name": "wintersmith-babel",
   "version": "1.0.0",
   "description": "A wintersmith plugin for babel compilation",
-  "author": "Robbie Ferrero",
+  "author": {
+    "name": "Robbie Ferrero",
+    "email": "robbieferrero@gmail.com"
+  },
   "license": "MIT",
   "keywords": [
     "wintersmith",
@@ -13,11 +16,7 @@
     "babel-core": "^5.5.6"
   },
   "devDependencies": {
-    "coffee-script": ">1.5",
-    "wintersmith": ">=2.0.0"
-  },
-  "peerDependencies": {
-    "wintersmith": ">=2.0.0"
+    "coffee-script": ">1.5"
   },
   "scripts": {
     "prepublish": "./bin/compile"
