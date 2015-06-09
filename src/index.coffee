@@ -5,6 +5,9 @@ babel = require 'babel-core'
 
 module.exports = (env, callback) ->
   config = env.config.babel || {}
+  if config.pattern?
+      pattern = config.pattern
+      delete config.pattern
 
   class BabelPlugin extends env.ContentPlugin
 
@@ -22,6 +25,6 @@ module.exports = (env, callback) ->
         plugin = new BabelPlugin filepath, result.toString()
       callback error, plugin
 
-  env.registerContentPlugin 'scripts', config.pattern || '**/*.*(js|es|es6|jsx)', BabelPlugin
+  env.registerContentPlugin 'scripts', pattern || '**/*.*(js|es|es6|jsx)', BabelPlugin
 
   callback()
