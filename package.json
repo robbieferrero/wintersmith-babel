@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-babel",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A wintersmith plugin for babel compilation",
   "author": {
     "name": "Robbie Ferrero",
@@ -9,7 +9,8 @@
   "license": "MIT",
   "keywords": [
     "wintersmith",
-    "wintersmith-plugin"
+    "wintersmith-plugin",
+    "babel"
   ],
   "main": "./lib",
   "dependencies": {
