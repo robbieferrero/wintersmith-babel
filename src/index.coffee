@@ -14,7 +14,7 @@ module.exports = (env, callback) ->
       @filepath.relative
 
     getView: -> (env, locals, contents, templates, callback) ->
-      callback null, new Buffer(babel.transform(@text, config).code) # you can also pass a stream
+      callback null, new Buffer(babel.transform(@text, config).code)
 
   BabelPlugin.fromFile = (filepath, callback) ->
     fs.readFile filepath.full, (error, result) ->
