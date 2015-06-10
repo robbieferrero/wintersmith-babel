@@ -1,5 +1,3 @@
-### A Wintersmith plugin. ###
-
 fs = require 'fs'
 babel = require 'babel-core'
 

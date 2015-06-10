@@ -4,7 +4,14 @@
   "description": "A wintersmith plugin for babel compilation",
   "author": {
     "name": "Robbie Ferrero",
-    "email": "robbieferrero@gmail.com"
+    "email": "robbieferrero@gmail.com",
+    "url": "https://github.com/robbieferrero"
+  },
+  "contributors": "Robbie Ferrero <robbieferrero@gmail.com> (https://github.com/robbieferrero)",
+  "homepage": "https://github.com/robbieferrero/wintersmith-babel",
+  "bugs": {
+  	"url": "https://github.com/robbieferrero/wintersmith-babel/issues",
+  	"email": "robbieferrero@gmail.com"
   },
   "license": "MIT",
   "keywords": [
@@ -16,6 +23,10 @@
   "dependencies": {
     "babel-core": "^5.5.6",
     "coffee-script": ">1.5"
+  },
+  "repository": { 
+  	"type" : "git",
+  	"url" : "https://github.com/robbieferrero/wintersmith-babel"
   },
   "scripts": {
     "prepublish": "./bin/compile"
