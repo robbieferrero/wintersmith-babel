@@ -23,7 +23,7 @@ and add `wintersmith-babel` to your config.json
 
 ## Requirements
 
-Depending on which Babel features you use it is a good idea (pretty much required) to include babel-polyfill.js in your primary template (along with compiles scripts). This file can be built using [Babel-core](https://www.npmjs.com/package/babel-core)
+Depending on which Babel features you use it is a good idea (pretty much required) to include babel-polyfill.js in your primary template (along with compiled scripts). This file can be built using [Babel-core](https://www.npmjs.com/package/babel-core)
 
 Reminder: It must be stored in your `contents` folder to be included in a Wintersmith build
 
